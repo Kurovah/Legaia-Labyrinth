@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb980136cc19e184895b4700ba1cab89, type: 3}
+  m_Name: TraitList
+  m_EditorClassIdentifier: 
+  traits:
+  - visible: 0
+    name: knight
+    affectedStats:
+    - multiplier: 1.5
+      stat: 0
+    - multiplier: 1.2
+      stat: 2
+  - visible: 0
+    name: Healer
+    affectedStats:
+    - multiplier: 1.7
+      stat: 0
+    - multiplier: 0.5
+      stat: 1
+  - visible: 0
+    name: Wizard
+    affectedStats:
+    - multiplier: 0.5
+      stat: 0
+    - multiplier: 0.5
+      stat: 1
+    - multiplier: 1.7
+      stat: 2
+  - visible: 0
+    name: Human
+    affectedStats:
+    - multiplier: 1.3
+      stat: 0
+    - multiplier: 1.1
+      stat: 2
+    - multiplier: 0.8
+      stat: 1
+  - visible: 0
+    name: Fae
+    affectedStats:
+    - multiplier: 1.1
+      stat: 1
+    - multiplier: 1.5
+      stat: 0
+  - visible: 0
+    name: Kobold
+    affectedStats:
+    - multiplier: 1.5
+      stat: 0
+    - multiplier: 0.4
+      stat: 2
+  - visible: 0
+    name: rouge
+    affectedStats:
+    - multiplier: 2
+      stat: 1
+    - multiplier: 0.9
+      stat: 0
+    - multiplier: 0.9
+      stat: 2
