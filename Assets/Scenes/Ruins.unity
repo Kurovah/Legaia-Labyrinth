@@ -676,7 +676,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 58daa1eee69b2854fa69aaba2259a03f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cef66735566435d409d732297eecf4b3, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cef66735566435d409d732297eecf4b3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58daa1eee69b2854fa69aaba2259a03f, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1274,7 +1274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &725291910
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: click to retun to base
+  m_Text: click to return to base
 --- !u!222 &780599878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1635,7 +1635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cef66735566435d409d732297eecf4b3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58daa1eee69b2854fa69aaba2259a03f, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1991,7 +1991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 58daa1eee69b2854fa69aaba2259a03f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cef66735566435d409d732297eecf4b3, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2038,7 +2038,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9d5c17e65c2fcef419bd922ac4585561, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2284,7 +2284,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: click to retun to base
+  m_Text: click to return to base
 --- !u!222 &1301881153
 CanvasRenderer:
   m_ObjectHideFlags: 0

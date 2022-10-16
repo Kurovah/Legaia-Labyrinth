@@ -20,7 +20,7 @@ public class EventManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        eventTimer = 10;
+        eventTimer = 2;
         eventIndex = 0;
         startScrolling = true;
 
@@ -31,7 +31,7 @@ public class EventManager : MonoBehaviour
         //ruinEvents.Add(el.events[1]);
 
         //add events
-        for(int i = 0; i< Random.Range(3, 7); i++)
+        for(int i = 0; i< Random.Range(2, 4); i++)
         {
             float spawnChance = Random.value;
             if(spawnChance < 0.5f)
@@ -155,7 +155,7 @@ public class EventManager : MonoBehaviour
         } else
         {
             eventIndex++;
-            eventTimer = 10;
+            eventTimer = 2;
             startScrolling = true;
         }
     }
