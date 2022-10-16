@@ -92,6 +92,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -100,9 +102,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -123,9 +125,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -660,6 +665,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      stonePlat_0: -3037400006458366897
+      stonePlat_6: 3360454194119885844
+      stonePlat_22: -51957263647523070
+      stonePlat_10: 1253219251230356010
+      stonePlat_13: 5020208159851035574
+      stonePlat_12: 8952142563343816632
+      stonePlat_7: -1579881831599301704
+      stonePlat_3: 4799116083649234576
+      stonePlat_5: -8724969766712738370
+      stonePlat_2: -1552710164747268101
+      stonePlat_15: -1969685958344202546
+      stonePlat_9: 6236580613132861947
+      stonePlat_20: -2378217888801805628
+      stonePlat_4: 8829771505188920673
+      stonePlat_17: 5003596346729453951
+      stonePlat_11: -6655262778469467150
+      stonePlat_18: -5206691888227074541
+      stonePlat_16: 2315365572663688012
+      stonePlat_19: 3766574937569025142
+      stonePlat_1: -1042995741505727743
+      stonePlat_21: 2034524888686503818
+      stonePlat_8: 1591556978528997689
+      stonePlat_14: -7541091808189559638
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
